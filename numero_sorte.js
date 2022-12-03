@@ -1,7 +1,6 @@
 const btn = document.querySelector("#enviar");
 
 btn.addEventListener("click", (evt) => {
-    evt.preventDefault()
     const name = document.querySelector("#txt_nome").value;//Recebe o nome
     const nameJunto = name.replace(/\s/g, '');//Remove espaços em branco
     const nameNum = nameJunto.length;//Nome em quantidade de letras
